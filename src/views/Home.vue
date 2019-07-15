@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+  	
     <router-view  />
     <ul class="footer">
       <li>
@@ -18,16 +19,7 @@
   </div>
 </template>
 
-<script>
 
-
-export default {
-  name: 'home',
-  components: {
-    
-  }
-}
-</script>
 <style lang="scss">
 .footer{
   position: fixed;
